@@ -237,7 +237,7 @@ const HomePage = ({ highlightImages, currentImageIndex, setCurrentImageIndex }) 
             <h3>Samvatsrikaalu</h3>
             <p>Samvatsarikaalu refers to the annual rituals performed in Hindu tradition to honor ancestors and deities, 
               ensuring blessings 
-              and spiritual well-being.</p>
+              </p>
           </div>
         </div>
       </section>
