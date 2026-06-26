@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const AboutPage = () => {
+const Aapdikaalu = () => {
   const navigate = useNavigate();
 
   return (
@@ -10,12 +10,9 @@ const AboutPage = () => {
       <button 
         onClick={() => navigate(-1)} 
         style={{
-          position: "static", 
           marginBottom: "3%",
-          top: "0px", 
-          left: "10px", 
           fontSize: "16px", 
-          backgroundColor: "Forestgreen", 
+          backgroundColor: "white", 
           border: "none", 
           borderRadius: "5px", 
           cursor: "pointer"
@@ -43,4 +40,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default Aapdikaalu;

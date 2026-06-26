@@ -26,7 +26,7 @@ import Pithru from './ServicePages/Pithru';
 import Upanaayam from './ServicePages/Upanayanaalu';
 import Vivaaham from './ServicePages/Vivaaham';
 import Vratham from './ServicePages/Vrathaalu';
-import Registrations from './RegisterationPage';
+import Registrations from './RegistrationPage';
 import Feedbacks from './Feedback';
 
 const App = () => {
@@ -60,7 +60,7 @@ const App = () => {
         {/* Header */}
         <header className="main-header">
           <div className="top-header">
-            <h1 className="org-title">Sree Vijaya Gayathri Seva Samstha</h1>
+            <h1 className="org-title">Sree </h1>
           </div>
           <div className="bottom-header">
             <button className="menu-toggle" onClick={toggleSidebar}>
@@ -88,7 +88,7 @@ const App = () => {
                 <img src={services} alt="Services icon" /> Services</Link></li>
               <li><Link to="/branches" onClick={() => { setSidebarOpen(false); window.scrollTo(0, 0); }}>
                 <img src={branches} alt="Branches icon" /> Branches</Link></li>
-              <li><Link to="/registeration" onClick={() => { setSidebarOpen(false); window.scrollTo(0, 0); }}>
+              <li><Link to="/registration" onClick={() => { setSidebarOpen(false); window.scrollTo(0, 0); }}>
                 <img src={regis} alt="Registration icon" /> Registration</Link></li>
               <li className="feedback"><Link to="/feedback" onClick={() => { setSidebarOpen(false); window.scrollTo(0, 0); }}>
                 <img src={feedba} alt="Feedback icon" /> Feedback</Link></li>
@@ -106,7 +106,7 @@ const App = () => {
               />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/services" element={<Services />} />
-              <Route path="/registeration" element={<Registrations/>} />
+              <Route path="/registration" element={<Registrations/>} />
               <Route path="/branches" element={<Branch />} />
               <Route path="/feedback" element={<Feedbacks />}/>
               <Route path="/hindusam" element={<HinduSam />} />
@@ -138,7 +138,7 @@ const App = () => {
             <h4>(Telangana)</h4>
             <ul>
               <li>Tarnaka Branch: <br/>040-42604049<br/>+91 7207014049</li>
-              <li>New Nagole Branch: <br/>+91 7207094049<br/> +91 94502223850</li>
+              <li>New Nagole Branch: <br/>+91 7207094049<br/> +91 9502223850</li>
               <li>Dammaiguda Branch: <br/>+91 9666309705</li>
               <li>Kukatpally Branch: <br/>+91 9000654049</li>
               <li>Sanathnagar Branch:

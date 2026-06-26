@@ -7,14 +7,18 @@ import japaalu from './photos/Japaalu.webp';
 import vrathaalu from './photos/Vrathaalu.webp';
 import upanayanaalu from './photos/Upanayanaalu.webp';
 import vivaaham from './photos/Vivaahaadhi Subhakaaryaalu.webp';
+import aapdikaaluImg from './photos/Rituals.png';
+import samvatImg from './photos/Samvat.png';
 
-const Branches = () => {
+const Services = () => {
   const navigate = useNavigate();
 
   const branches = [
     { title: "Hindu Saampradaaya Sidhantham", img: hindu, path: "/hindusam" },
     { title: <>Agnihothra<br/> Homaala<br/> Prakriya</>, img: homam, path: "/agnihothra-homam" },
-    { title: <>Maasikaalu (Aapdikaalu <br/> Samvatsarikaalu )</>, img: maasikaalu, path: "/maasikalu" },
+    { title: "Maasikaalu (Monthly Rituals)", img: maasikaalu, path: "/maasikalu" },
+    { title: "Aapdikaalu (Aapatkaalika Vidhaanalu)", img: aapdikaaluImg, path: "/aapdikaalu" },
+    { title: "Samvatsarikaadhi Pithru Kaaryaalu", img: samvatImg, path: "/pithru-kaaryaalu" },
     { title: "Vrathaalu (Dharma, Bhakti, Acharana)", img: vrathaalu, path: "/vrathaalu" },
     { title: "Japaalu (Mantra Sadhana)", img: japaalu, path: "/japaalu" },
     { title: "Upanayanaalu (Samskaram)", img: upanayanaalu, path: "/upanayanaalu" },
@@ -39,4 +43,4 @@ const Branches = () => {
   );
 };
 
-export default Branches;
+export default Services;
